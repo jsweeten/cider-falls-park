@@ -1,0 +1,177 @@
+body {
+    background-image: url(https://www.visitsmokies.org/wp-content/uploads/2021/08/GSMNP-Mary-Anne-Baker-1024x678.jpg);
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 32px;
+    margin: 10px;
+}
+
+#park-map {
+    display: flex;
+    flex-direction: column;
+}
+
+#north {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    height:fit-content;
+}
+
+#south {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    height:fit-content;
+}
+
+#park-map {
+    width: 90%; 
+}
+
+#parkarea--1 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://meadowlarkloghomes.com/media/k2/items/cache/267b1948fa84309bc99f9c0289cabe44_XL.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+#parkarea--2 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/01/hiking8.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    margin: 8px;
+    flex-grow: 1;
+}
+#parkarea--3 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://www.worldatlas.com/r/w960-q80/upload/67/c3/e5/dukc-river-tennessee.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    margin: 8px;
+    flex-grow: 1;
+}
+#parkarea--4 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/94/Gander_River%2C_Newfoundland%2C_Canada.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    margin: 8px;
+    flex-grow: 1;
+}
+#parkarea--5 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://www.outsideonline.com/wp-content/uploads/2021/05/21/crowded-campground-woods_h.jpg?crop=16:9&width=960&enable=upscale&quality=100);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    margin: 8px;
+    flex-grow: 1;
+}
+#parkarea--6 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5aea180bd274cbd8a1dc6b1e/1594840715094-CPVZ4F5D2EHVJ5TQJZI8/DSC_1687.jpg?format=1000w);
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 5px;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #321F0E;
+    margin-top: 50px;
+}
+
+footer div {
+    margin: 10px;
+    padding: 10px;
+}
+
+#guest-list {
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 8px;
+    height: 100%;
+}
+
+#guest-list-header {
+    text-align: center;
+}
+
+#services ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsla(0, 0%, 66%, 0.247);
+}
+
+#services li {
+    list-style: none;
+}
